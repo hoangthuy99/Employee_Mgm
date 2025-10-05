@@ -1,4 +1,7 @@
 package com.ra.Model.Exceptions;
 
-public class FullNameException {
+public class FullNameException extends Exception {
+    public FullNameException(String message) {
+        super(message);
+    }
 }

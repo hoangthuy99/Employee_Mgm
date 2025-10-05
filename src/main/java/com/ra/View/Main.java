@@ -1,7 +1,10 @@
-package com.ra;
+package com.ra.View;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        EmployeeView employeeView = new EmployeeView();
+        employeeView.menuEmployee();
+
     }
 }
